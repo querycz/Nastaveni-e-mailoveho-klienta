@@ -33,7 +33,7 @@
 - _Jméno:_ Jméno Příjmení
 - _E-mail:_ cokoliv@domena.tld
 - _Považovat za alias:_ ☑️
-- _Server SMTP:_ smtp.fortion.net
+- _Server SMTP:_ viz výše
 - _Port:_ 587
 - _Zabezpečené připojení pomocí protokolu TLS_
 
@@ -41,7 +41,7 @@
 - _Zkontrolovat poštu z jiných účtů_ –> _Přidat e-mailový účet_
 - _Importovat e-maily z mého druhého účtu (POP3)_
 - _Uživatelské jméno:_ cokoli@domena.tld
-- _POP3 server:_ viz výše
+- _POP server:_ viz výše
 - _Port:_ 110
 
 ## Outlook
