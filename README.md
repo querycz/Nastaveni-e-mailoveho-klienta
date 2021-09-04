@@ -49,3 +49,15 @@
 - _POP3 server:_ viz výše
 - _SMTP server:_ viz výše
 - Přihlašovací údaje jak pro POP3, tak SMTP: název schránky, např. cokoliv@domena.tld
+
+## Thunderbird
+
+### IMAP
+- _Port:_ 143
+- _SSL:_ STARTTLS
+- _Autentizace:_ Heslo
+
+### SMTP
+- _Port:_ 587
+- _SSL:_ Žádné
+- _Autentizace:_ Heslo
