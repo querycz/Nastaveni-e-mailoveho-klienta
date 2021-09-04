@@ -1,13 +1,27 @@
-# Nastavení e-mailového klienta
+# Nastavení e-mailového klienta ✉️
 
 ## Obecné
-- POP3/IMAP server:	mail.domena.tld nebo mail.fortion.net (port 143, šifrování TLS/SSL)
-- SMTP server: smtp.domena.tld nebo smtp.fortion.net (port 587, vyžadována autorizace, volitelné STARTTLS)
-- Webmail: https://webmail.domena.tld nebo https://webmail.fortion.net
-- Uživatelské jméno: cokoliv@domena.tld
+- _POP3/IMAP server:_	mail.domena.tld nebo mail.fortion.net (port 143, šifrování TLS/SSL)
+- _SMTP server:_ smtp.domena.tld nebo smtp.fortion.net (port 587, vyžadována autorizace, volitelné STARTTLS)
+- _Webmail:_ https://webmail.domena.tld nebo https://webmail.fortion.net
+- _Uživatelské jméno:_ cokoliv@domena.tld
+
+## macOS
+- IMAP/SMTP viz výše
+- _Automatically manage connection settings:_ ☑️
 
 ## iOS/iPadOS
 
+### Outgoing mail server
+- _Use SSL:_ ☑️
+- _Authentication:_ Password
+- _Server port_: 587
+
+### Incoming settings
+- _Use SSL:_ ☑️
+- _Authentication:_ Password
+- _IMAP Path Prefix:_ /
+- _Server port_: 993
 
 ## Gmail
 - _Nastavení_ –> _Účty a import_
@@ -17,23 +31,21 @@
 ### Odesílání e-mailů
 - _Odesílat poštu jako_ –> _Přidat další emailovou adresu_
 - _Jméno:_ Jméno Příjmení
-_ _E-mail:_ cokoliv@domena.tld
-- _Považovat za alias_ – ano
+- _E-mail:_ cokoliv@domena.tld
+- _Považovat za alias:_ ☑️
 - _Server SMTP:_ smtp.fortion.net
 - _Port:_ 587
 - _Zabezpečené připojení pomocí protokolu TLS_
 
-
-
 ### Příjem e-mailů
-- Zkontrolovat poštu z jiných účtů –> Přidat e-mailový účet
-- Importovat e-maily z mého druhého účtu (POP3)
-- Uživatelské jméno: cokoli@domena.tld
-- POP3 server: mail.fortion.net
-- Port: 110
+- _Zkontrolovat poštu z jiných účtů_ –> _Přidat e-mailový účet_
+- _Importovat e-maily z mého druhého účtu (POP3)_
+- _Uživatelské jméno:_ cokoli@domena.tld
+- _POP3 server:_ viz výše
+- _Port:_ 110
 
 ## Outlook
-- "Server příchozí pošty požaduje ověření:" Ano
-- POP3 server: mail.fortion.net
-- SMTP server: smtp.fortion.net
+- _Server příchozí pošty požaduje ověření:_ ☑️
+- _POP3 server:_ viz výše
+- _SMTP server:_ viz výše
 - Přihlašovací údaje jak pro POP3, tak SMTP: název schránky, např. cokoliv@domena.tld
